@@ -1,0 +1,68 @@
+body
+{ 
+  min-width:1036px;
+}
+div
+{
+  background: linear-gradient(to bottom right,LightBlue,white,LightBlue);
+  line-height:  50px;
+  padding: 20px;
+  text-transform: uppercase;
+  border: 2px double green;
+  color:green;
+  font-size:20px;
+}
+.error
+{
+	color:red;
+}
+.value
+{
+	color:black;
+}
+h1,h2
+{
+  text-align:center;
+  text-decoration:underline; 
+}
+.right
+{
+  float:right;
+  margin-right:20%;
+}
+.Cright
+{
+  float:right;
+  margin-right:5%;
+}
+.left
+{
+  text-align:left;
+}
+table
+{ 
+    color:green;
+    width:100%;
+}
+table,th,td
+{
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+th,td
+{
+  text-align:center;
+  padding: 5px;
+  width:25%;
+}
+.innertable,.innertable th, .innertable td
+{
+  border:none;
+}
+.innertable th:first-child, .innertable td:first-child
+{
+  border-right: 1px solid black;
+}
+
+
+ 

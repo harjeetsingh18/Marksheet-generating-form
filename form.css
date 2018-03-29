@@ -1,0 +1,104 @@
+body
+{
+  background-color: AliceBlue;
+  line-height:  50px;
+  padding: 20px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  min-width: 1036px;
+}
+h1,h2
+{
+  text-align:center;
+  text-decoration:underline; 
+  color:blue;
+}
+.required
+{
+  color: red;
+}
+legend
+{
+  font-size:20px;
+}
+fieldset
+{
+  padding: 20px;
+}
+.pi input
+{ 
+  text-align:center;
+  text-transform: uppercase;
+  border:none;
+  border-bottom: 1px solid black;
+  background-color:AliceBlue;
+}
+.pi input:hover ,.pi input:focus
+{
+  Background-color: white;
+}
+table
+{ 
+   width:100%;
+}
+table,th,td
+{
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+th,td
+{
+  text-align:center;
+  padding: 5px;
+  width:25%;
+}
+table input
+{
+  text-align:center;
+  text-transform: uppercase;
+  border:none;
+  background-color:AliceBlue;
+}
+table input:hover ,table input:focus
+{
+  Background-color: white;
+}
+.innertable,.innertable th, .innertable td
+{
+  border:none;
+}
+.innertable th:first-child, .innertable td:first-child
+{
+  border-right: 1px solid black;
+}
+  
+.other input
+{ 
+  text-align:center;
+  text-transform:uppercase;
+  border:none;
+  border-bottom: 1px solid black;
+  background-color:AliceBlue;
+}
+.other input:hover ,.other input:focus
+{
+  Background-color: white;
+}
+.button
+{ 
+  padding: 20px;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:20px;
+}
+.button input
+{
+  font-size: 23px;
+}
+.button input:hover ,.button input:focus
+{
+  font-size: 25px;
+  Background-color: DeepSkyBlue;
+}
+
